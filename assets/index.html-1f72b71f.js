@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-fffb8e28","path":"/guide/","title":"Blogging Like a Hacker","lang":"en-US","frontmatter":{"title":"Blogging Like a Hacker","lang":"en-US"},"headers":[],"git":{"updatedTime":1695628896000,"contributors":[{"name":"yuzhoufen","email":"yuzhoufen@foresee.com.cn","commits":1}]},"filePathRelative":"guide/README.md"}');export{e as data};
