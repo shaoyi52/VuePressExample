@@ -43,4 +43,5 @@ export default defineUserConfig({
       },// 字符串 - 页面文件路径
       '/bar/README.md',]
   }),
+  base:"/vuepress/",
 })
