@@ -12,7 +12,7 @@ BFC--块级格式化上下文
 3. display 为 inline-block 、table-cell、table-caption、table、table-row、table-row-group、
         table-header-group、table-footer-group、inline-table、flow-root、flex或 inline-flex、grid或 inline-grid
 4. overflow 除了 visible 以外的值（hidden，auto，scroll）
-5. 根元素<html> 就是一个 BFC
+5. 根元素html 就是一个 BFC
 6. display: flow-root 或者flow-root list-item
 
 **推荐使用 display: flow-root ，没有副作用**
@@ -43,6 +43,7 @@ BFC--块级格式化上下文
 * 例1 用于清除浮动
 ![清除浮动](./img/calFloatDivHeight.png) 
 ```
+<head>
 <style>
 body {
   background-color: lightblue;
@@ -110,6 +111,7 @@ body {
   ![阻止元素被浮动元素覆盖](./img/floatDivCoverDiv.png)
   *  通过给被影响的兄弟元素设置BFC属性，来解决被覆盖的情况。
   ```
+  <head>
   <style>
       .cube1 {
         width: 100px;

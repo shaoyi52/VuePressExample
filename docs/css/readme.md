@@ -1,6 +1,6 @@
 ---
 title: "CSS 资料室"
-sidebar: true
+sidebar: 'auto'
 ---
 [[toc]]
 
