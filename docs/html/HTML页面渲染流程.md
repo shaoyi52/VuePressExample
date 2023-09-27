@@ -37,7 +37,9 @@
 6. 补充：
 
 监听资源加载完成有四种方式
+```
 　　 1. window.onload = function(){....}
 　　 2. window.addEventListener("load",function(){....});
 　　 3. document.body.onload = function(){....}
-　　 4. <body onload = "load()">
+　　 4. <body onload = "load()"><body>
+```
