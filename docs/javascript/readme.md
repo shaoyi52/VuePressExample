@@ -1,7 +1,7 @@
 ---
 sidebar: 
   - text: 快速上手
-    link: /zh/guide/getting-started.
+    link: /guide/.
     children:
       - text: 'github'
         link: 'https://github.com'
