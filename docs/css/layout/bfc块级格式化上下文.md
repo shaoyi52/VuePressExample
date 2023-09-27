@@ -73,6 +73,7 @@ body {
 	<div class="son1"></div>
     <div class="son2"></div>
 </div>
+</body
 ```
 * 例2 避免外边距重叠（防止margin塌陷）
     * 通过给其中一个div包裹一个父div，设置BFC属性，来解决margin塌陷的问题
