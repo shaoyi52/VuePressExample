@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,a as n}from"./app-f172053d.js";const c={},_=n("p",null,"'one'",-1),s=[_];function a(r,l){return o(),t("div",null,s)}const f=e(c,[["render",a],["__file","one.html.vue"]]);export{f as default};

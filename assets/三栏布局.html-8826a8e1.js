@@ -1,4 +1,4 @@
-import{_ as i,o as n,c as e,e as l}from"./app-dfed1ad6.js";const d={},s=l(`<h1 id="css-三栏布局" tabindex="-1"><a class="header-anchor" href="#css-三栏布局" aria-hidden="true">#</a> CSS 三栏布局</h1><blockquote><p>create by <strong>yuzhoufen</strong> on <strong>2019-09-19 15:45</strong></p></blockquote><ul><li>html Demo</li></ul><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>&lt;div class=&quot;container&quot;&gt;
+import{_ as i,o as n,c as e,e as l}from"./app-f172053d.js";const d={},s=l(`<h1 id="css-三栏布局" tabindex="-1"><a class="header-anchor" href="#css-三栏布局" aria-hidden="true">#</a> CSS 三栏布局</h1><blockquote><p>create by <strong>yuzhoufen</strong> on <strong>2019-09-19 15:45</strong></p></blockquote><ul><li>html Demo</li></ul><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>&lt;div class=&quot;container&quot;&gt;
     &lt;!-- 优先渲染 --&gt;
     &lt;div class=&quot;center&quot;&gt;
     center
