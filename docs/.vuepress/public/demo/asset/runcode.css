@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+body#editor {
+	text-align: left;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'WenQuanYi Micro Hei', sans-serif;
+}
+textarea {
+	width: 100%;
+	border: 0 none;
+	overflow: auto;
+	resize: none;
+	outline: none;
+}
+a {
+	color: #333;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	word-wrap: break-word;
+	font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'WenQuanYi Micro Hei', sans-serif;
+}
+ol, ul {
+    list-style: none;
+}
+
+img { vertical-align: middle; }
+
+.fl { float: left; }
+.fr { float: right; }
+.clearfix::after { content: ""; display: block; clear: both; }
+
+.text-center { text-align: center; }
+
+.content .textbox {	
+	padding-left:5px;
+	border:1px #d1d1d1 solid;
+	background: url(inpbg.png) #fff no-repeat;
+	overflow:hidden;	
+}
+
+.content .textbox div textarea {
+	padding:5px 0;
+	width:100%;
+	background: url(inpbg.png) no-repeat -4px 0;
+}
+.content #code {
+	left:25px;
+	right:25px;
+	height:99%;
+}
+.content #code textarea {
+	height:430px;	
+}
+
+
+
+/* tryrun实例代码、运行结果 */
+.container-fluid {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    padding: 24px 24px 36px;
+    box-sizing: border-box;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.editor-box {
+    width: 50%;
+    padding-right: 12px;
+    box-sizing: border-box;
+}
+.result-box {
+    width: 50%;
+    padding-left: 12px;
+    box-sizing: border-box;
+}
+.text-wrap {
+    width: 100%;
+    position: relative;
+}
+.top-con {
+    background-color: #fff;
+    height: 60px;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.top-con .top-con-text {
+    margin-left: 10px;
+}
+.top-con .top-con-text span {
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+}
+.top-con .i-icon {
+    padding-right: 5px;
+}
+.top-con .top-con-text .i-icon {
+    font-size: 16px;
+}
+.top-con .top-con-text .i-icon-eye {
+    font-size: 18px;
+}
+.top-con .top-con-btn .btn {
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: #333;
+    border-radius: 4px; 
+    padding: 6px 12px;
+  	font-size: 14px;
+  	margin: 0 0 0 12px;
+  	text-align: center;
+}
+.top-con .top-con-btn .btn:hover {
+    background-color:#ebebeb;
+}
+.top-con .top-con-btn .btn-run {
+	background-color: #5cb85c;
+    border-color:#4cae4c;
+    color: #fff;
+}
+.top-con .top-con-btn .btn-run:hover {
+    background-color:#47a447;
+    border-color:#398439
+}
+.top-con .top-con-device .btn.active {
+	background-color: #5bc0de;
+    border-color: #46b8da;
+    color: #fff;
+}
+.top-con .top-con-device .btn.active:hover {
+    background-color:#39b3d7;
+    border-color:#269abc;
+}
+.text-panel {
+    width: 100%;
+    height: 581px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    border-image: none;
+    font: 14px "Courier New",Courier,monospace;  
+}
+#demotype.pc {
+    background: rgba(0, 0, 0, 0);
+    width: 100%;
+    height: 100% !important;
+    overflow: hidden;
+} 
+#demotype.pad {
+	background: rgba(0, 0, 0, 0) url("//7n.w3cschool.cn/statics/images/tryrun-device.png") no-repeat scroll;
+    height: 651px !important;
+    margin: 40px auto;
+    padding: 73px 32px 70px 32px;
+    width: 488px;
+}
+#demotype.mobile {
+	background: rgba(0, 0, 0, 0) url("//7n.w3cschool.cn/statics/images/tryrun-device.png") no-repeat scroll -650px -559px;
+    height: 574px !important;
+    margin: 40px auto 0;
+    padding: 43px 15px 13px 12px;
+    width: 280px;
+}     
+#demotype.mobile > iframe {
+    border-bottom-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+}     
+#preview {
+    width: 100%;
+    height: 100%;
+    border: 0 none;
+}
+#keyboards {
+    height: 30px;
+    width: 100%;
+    padding-top: 2px;
+    padding-left: 2px;
+    background-color: #B8B8B8;
+}
+#keyboards a {
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    width: 7%;
+    float: left;
+    background-color: #F8F8F8;
+    text-align: center;
+    margin-left: 8px;
+}
+.btnbar {
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+	background-color: #FFF;
+}
+
+/* 自适应样式 */
+@media (max-width:1024px) { 
+    * {
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+    } 
+    html {
+        font-size: 20px;
+    }
+    body {
+        background-color: #fff;
+    }
+    /* 头部导航  */
+    .play-bar-nav {
+        display: block !important;
+    }
+    .aui-bar.play-bar-nav {
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        width: 100%;
+        min-height: 2.25rem;
+        font-size: 0.9rem;
+        text-align: center;
+        display: table;
+    }
+    .aui-bar-nav.play-bar-nav {
+        top: 0;
+        line-height: 2.25rem;
+        background-color: #ffffff;
+        color: #212121;
+    }
+    .play-bar-nav .aui-pull-left {
+        float: left;
+        padding: 0 0.5rem;
+        font-size: 0.8rem;
+        font-weight: 400;
+        z-index: 2;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .play-bar-nav .aui-icon-left {
+        display: inline-block;
+        width: 1.0rem;
+        height: 1.0rem;
+        background-image: url("//7nsts.w3cschool.cn/images/w3cschool_mobile/prev.png");
+        background-size: 100%;
+        margin-top: 0.6rem;
+    }
+    .play-bar-nav .aui-title {
+        min-height: 2.25rem;
+        position: absolute;
+        margin: 0;
+        text-align: center;
+        white-space: nowrap;
+        right: 2rem;
+        left: 2rem;
+        width: auto;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        z-index: 2;
+    }
+    #try-header, .btnbar, #edittry, .top-con .top-con-device {
+        display: none;
+    }
+    .container-fluid {
+        display: block;
+        margin-top: 2.25rem;
+        padding: 0 0.75rem 1.75rem;
+    }
+    .editor-box,.result-box {
+        width: 100%;
+    }
+    .editor-box {
+        padding-right: 0;
+    }
+    .result-box {
+        padding-left: 0;
+    }
+    .top-con .top-con-text {
+        margin-left: 0;
+    }
+    .text-panel {
+        height: 265px;
+        -webkit-overflow-scrolling:touch;
+        overflow:auto;
+    }
+}
+
+button,.button {
+    background-color: #3085d6;
+    color: #fff;
+    border: 0;
+    box-shadow: none;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 15px 35px;
+    margin: 26px 5px 0;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+button:hover,.button:hover {
+    background-color: #297dce
+}
+
+button:active,.button:active {
+    background-color: #236bb0
+}
+
+button.cancel,.button.cancel {
+    background-color: #d0d0d0
+}
+
+button.cancel:hover,.button.cancel:hover {
+    background-color: #c8c8c8
+}
+
+button.cancel:active,.button.cancel:active {
+    background-color: #b7b7b7
+}

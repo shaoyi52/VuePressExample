@@ -1,6 +1,15 @@
 ---
 title: "CSS 资料室"
-sidebar: 'auto'
+sidebar:  
+  - text: TaskList
+    link: /css/TaskList.html
+  - text: CSS实例
+    link: /css/css_examples.html
+  - text: 快速上手
+    link: /guide/.
+    children:
+      - text: 'github'
+        link: 'https://github.com'
 ---
 [[toc]]
 

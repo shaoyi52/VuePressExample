@@ -25,7 +25,7 @@ export default defineUserConfig({
       },
       {
         text: '其他',
-        link: '/other/',
+        link: '/helpDoc/bookmark.html',
       },
     ],
     // 所有页面会使用相同的侧边栏
