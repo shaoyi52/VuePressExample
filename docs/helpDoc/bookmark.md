@@ -9,6 +9,10 @@ sidebar: auto
 - [w3school.com.cn](https://www.w3school.com.cn/tiy/t.asp?f=eg_html_basic)
 
 ## Ai
+- [讯飞星火认知大模型](https://xinghuo.xfyun.cn/desk)
+- [通义千问](https://qianwen.aliyun.com/)
+- [文心一言](https://yiyan.baidu.com/)
+
  (https://v4.chatfree.cc/)
  
 ## 自媒体运营插件
