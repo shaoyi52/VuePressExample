@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7bdfa6c6","path":"/middle/vercelDeployDoc/","title":"Mui 投票","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1697688947000,"contributors":[{"name":"yuzhoufen","email":"yuzhoufen@foresee.com.cn","commits":1}]},"filePathRelative":"middle/vercelDeployDoc/readme.md"}');export{e as data};
