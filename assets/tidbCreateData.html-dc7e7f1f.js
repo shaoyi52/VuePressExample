@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7c08371a","path":"/middle/vercelDeployDoc/tidbCreateData.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1703231848000,"contributors":[{"name":"yuzhoufen","email":"yuzhoufen@foresee.com.cn","commits":1}]},"filePathRelative":"middle/vercelDeployDoc/tidbCreateData.md"}');export{e as data};
