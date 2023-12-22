@@ -20,3 +20,8 @@ sidebar: auto
 ## 文档暂分类
 ### 中级文档
 - [前端工程化](../middle/engineering/)
+
+
+## 微信小程序开发
+- [WeUI -一套同微信原生视觉体验一致的基础样式库] (https://weui.io/)
+- [uniapp 多端开发](https://uniapp.dcloud.net.cn/tutorial/project.html)
