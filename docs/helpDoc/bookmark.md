@@ -45,3 +45,6 @@ sidebar: auto
 - [稀土掘金](https://juejin.cn/frontend)
 - [通义千问](https://qianwen.aliyun.com/)
 - [电子书下载](https://zlib-articles.se/)
+
+## 更多相关资料
+- [程序员必备的60个网站，解决你编程的所有问题](https://blog.csdn.net/BinSTD/article/details/107352684)
