@@ -34,7 +34,7 @@ sidebar: auto
 - [element-plus](https://element-plus.gitee.io/)----- [源码库](https://gitee.com/element-plus/element-plus)
 - [腾讯tdesign](https://tdesign.tencent.com/)
 - [阿里ant design](https://ant-design.antgroup.com/)---- [源码库](https://gitee.com/ant-design/ant-design)
-- - [阿里ant design vue](https://antdv.com/components/overview)---- [源码库](https://github.com/vueComponent/ant-design-vue)
+- [阿里ant design vue](https://antdv.com/components/overview) ---- [源码库](https://github.com/vueComponent/ant-design-vue)
 - [iviewui vue比较多示例](https://www.iviewui.com/)
 - [京东风格组件库](https://nutui.jd.com/)
 - [ NutUI 的抽奖组件库，助力营销活动和小游戏场景](https://nutui.jd.com/bingo/index.html#/)
