@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6d84d1f9","path":"/vue/Vue2%E4%BD%BF%E7%94%A8%E6%98%93%E8%AF%AF%E7%94%A8%E6%94%B6%E9%9B%86.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1710751084000,"contributors":[{"name":"yuzhoufen","email":"yuzhoufen@foresee.com.cn","commits":1}]},"filePathRelative":"vue/Vue2使用易误用收集.md"}');export{e as data};
