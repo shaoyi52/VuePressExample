@@ -4,7 +4,8 @@ sidebar: auto
 # 常用地址
 
 ##  code相关
-- [codepen 地址](https://codepen.io/pen/)
+- [stackblitz](https://stackblitz.com)
+-  [codepen 地址](https://codepen.io/pen/)
 - [codesandbox 地址](https://codesandbox.io/s/vanilla)
 - [w3school.com.cn](https://www.w3school.com.cn/tiy/t.asp?f=eg_html_basic)
 - [github_根据文件内容/文件名搜索文件](https://blog.csdn.net/xuchaoxin1375/article/details/120497674)
@@ -16,6 +17,9 @@ sidebar: auto
 - [扣子 AI 开发平台](https://www.coze.cn/)
 
  (https://v4.chatfree.cc/)
+ ## mock API
+ - [apipost](https://www.apipost.cn/) 感觉更易用
+ - [apifox](https://apifox.com/)
 
 ## 自媒体运营插件
 - [墨滴软件——微信文章发布工具](https://product.mdnice.com/)
@@ -41,11 +45,18 @@ sidebar: auto
 - [arco字节前端框架](https://arco.design/)
 ## 前端资料查询地址
 - [Stack Overflow — 解决 bug 的社区](https://stackoverflow.com/)
+
 - [电子书下载](https://zlib-articles.se/)
+
 - [github Issues](https://github.com/)
+
 - [稀土掘金](https://juejin.cn/frontend)
+
 - [通义千问](https://qianwen.aliyun.com/)
+
 - [电子书下载](https://zlib-articles.se/)
+## 转换工具
+[html转md工具](https://devtool.tech/html-md)
 
 ## 更多相关资料
 - [程序员必备的60个网站，解决你编程的所有问题](https://blog.csdn.net/BinSTD/article/details/107352684)

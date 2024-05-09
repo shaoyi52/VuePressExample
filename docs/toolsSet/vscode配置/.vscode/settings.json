@@ -1,0 +1,24 @@
+{
+  "i18n-ally.localesPaths": ["src/lang"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.printWidth": 80, // 超过最大值换行
+  "prettier.tabWidth": 4,
+  "editor.formatOnSave": true, // 保存时自动格式化
+  "prettier.singleQuote": true, // 使用单引号
+  "prettier.endOfLine": "auto",
+  "prettier.semi": false, //不加分号
+  "prettier.bracketSpacing": true, // 数组属性：后跟一个空格
+   //禁止{a:1,}随时添加逗号,这个很重要。找了好久
+   "prettier.trailingComma": "none"
+
+  /* 
+    // eslint自动修复；需放在用户配置目录下
+    "eslint.codeAction.showDocumentation": {
+        "enable": true
+    },
+    "eslint.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    }
+   */
+}
