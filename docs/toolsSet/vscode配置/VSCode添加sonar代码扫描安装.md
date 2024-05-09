@@ -4,7 +4,7 @@
 ctrl + shift + p，配置用户代码片段
 ```
 
-  
+
 ![snipptest](img/snippets.png "snipptest")
 
 > 2. 步骤二：
@@ -15,16 +15,7 @@ ctrl + shift + p，配置用户代码片段
 
 > 3. 自定义自己喜欢的快捷键
 
-```    "Print to js class": {
-        "prefix": "zhushicc",
-        "body": [
-            "/*",
-            " *@Description: $0",
-            " *@ClassAuthor: Happy Ma",
-            " *@Date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}",
-            "*/"
-        ],
-    },
+```    json
     "Print to js method": {
         "prefix": "zhushimm",
         "body": [
@@ -38,4 +29,5 @@ ctrl + shift + p，配置用户代码片段
 ```
 
 
-    
+​    
+

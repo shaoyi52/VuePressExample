@@ -4,18 +4,18 @@
 ctrl + shift + p，配置用户代码片段
 ```
 
-  
+
 ![snipptest](img/snippets.png "snipptest")
 
 > 2. 步骤二：
-``` 
+``` json
 点击javascript.json配置javascript`
 ![scriptJson](img/scriptJson.png "scriptJson")
 ```
 
 > 3. 自定义自己喜欢的快捷键
 
-```    "Print to js class": {
+```    json
         "prefix": "zhushicc",
         "body": [
             "/*",
@@ -35,7 +35,8 @@ ctrl + shift + p，配置用户代码片段
             "*/"
         ],
     },
+    
 ```
 
 
-    
+​    

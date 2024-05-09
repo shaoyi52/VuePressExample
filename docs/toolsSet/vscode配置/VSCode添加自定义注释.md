@@ -19,7 +19,8 @@ ctrl + shift + p，配置用户代码片段
 
 > 3. 自定义自己喜欢的快捷键
 
-```"Print to js class": {
+```json
+"Print to js class": {
         "prefix": "zhushicc",
         "body": [
             "/*",
