@@ -1,3 +1,7 @@
+---
+title: "Markdown demo"
+sidebar: 'auto'
+---
 **TS**知识图
 
 ![](https://pic3.zhimg.com/v2-9c7e460c8e25e6ea674a8cabe61c1b6a_b.jpg)
