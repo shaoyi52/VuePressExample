@@ -55,6 +55,8 @@ sidebar: auto
 - [通义千问](https://qianwen.aliyun.com/)
 
 - [电子书下载](https://zlib-articles.se/)
+## 原型设计地址
+- [莫高设计](https://mastergo.com/)
 ## 转换工具
 [html转md工具](https://devtool.tech/html-md)
 
