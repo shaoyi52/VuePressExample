@@ -5,10 +5,13 @@ sidebar: auto
 
 ##  code相关
 - [stackblitz](https://stackblitz.com)
--  [codepen 地址](https://codepen.io/pen/)
+- [codepen 地址](https://codepen.io/pen/)
+- [jsfiddle 地址](https://jsfiddle.net/) 
 - [codesandbox 地址](https://codesandbox.io/s/vanilla)
 - [w3school.com.cn](https://www.w3school.com.cn/tiy/t.asp?f=eg_html_basic)
 - [github_根据文件内容/文件名搜索文件](https://blog.csdn.net/xuchaoxin1375/article/details/120497674)
+- [一个用css绘制图案的组件](https://css-doodle.com/)
+
 
 ## Ai
 - [讯飞星火认知大模型](https://xinghuo.xfyun.cn/desk)
@@ -20,6 +23,10 @@ sidebar: auto
  ## mock API
  - [apipost](https://www.apipost.cn/) 感觉更易用
  - [apifox](https://apifox.com/)
+ ## 前端最新知识
+ - [MDN Web Docs](https://developer.mozilla.org/zh-CN/) 
+ - [css-tricks](https://css-tricks.com/) 
+ 
 
 ## 自媒体运营插件
 - [墨滴软件——微信文章发布工具](https://product.mdnice.com/)
@@ -59,6 +66,6 @@ sidebar: auto
 - [莫高设计](https://mastergo.com/)
 ## 转换工具
 [html转md工具](https://devtool.tech/html-md)
-
+[html转md工具](https://www.helloworld.net/html2md)
 ## 更多相关资料
 - [程序员必备的60个网站，解决你编程的所有问题](https://blog.csdn.net/BinSTD/article/details/107352684)
