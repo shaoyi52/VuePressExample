@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,a as c}from"./app-bc70983f.js";const _={},s=c("p",null,"'two'",-1),n=[s];function a(r,l){return t(),o("div",null,n)}const f=e(_,[["render",a],["__file","two.html.vue"]]);export{f as default};
