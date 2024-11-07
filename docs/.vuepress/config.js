@@ -22,6 +22,9 @@ export default defineUserConfig({
       },{
         text: 'HTML',
         link: '/html/',
+      },{
+        text: '工程化',
+        link: '/html/',
       },
       {
         text: '其他',

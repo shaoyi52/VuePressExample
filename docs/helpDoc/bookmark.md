@@ -18,15 +18,13 @@ sidebar: auto
 - [通义千问](https://qianwen.aliyun.com/)
 - [文心一言](https://yiyan.baidu.com/)
 - [扣子 AI 开发平台](https://www.coze.cn/)
-
- (https://v4.chatfree.cc/)
  ## mock API
  - [apipost](https://www.apipost.cn/) 感觉更易用
  - [apifox](https://apifox.com/)
  ## 前端最新知识
  - [MDN Web Docs](https://developer.mozilla.org/zh-CN/) 
  - [css-tricks](https://css-tricks.com/) 
- 
+
 
 ## 自媒体运营插件
 - [墨滴软件——微信文章发布工具](https://product.mdnice.com/)
@@ -50,6 +48,7 @@ sidebar: auto
 - [京东风格组件库](https://nutui.jd.com/)
 - [ NutUI 的抽奖组件库，助力营销活动和小游戏场景](https://nutui.jd.com/bingo/index.html#/)
 - [arco字节前端框架](https://arco.design/)
+- [UnoCSS 即时原子 CSS 引擎](https://unocss.nodejs.cn/)
 ## 前端资料查询地址
 - [Stack Overflow — 解决 bug 的社区](https://stackoverflow.com/)
 
